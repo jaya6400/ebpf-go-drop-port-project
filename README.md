@@ -1,4 +1,4 @@
-# eBPF Packet Control Project
+# Packet Control Project
 
 This project contains two tasks demonstrating eBPF programs integrated with Go:
 
