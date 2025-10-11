@@ -1,0 +1,51 @@
+# =====================
+# Build & Binary Files
+# =====================
+*.o
+*.out
+*.exe
+*.so
+*.dll
+*.a
+
+# Go build outputs (any compiled main files)
+main
+*.test
+
+# =====================
+# Build Directories
+# =====================
+bin/
+build/
+dist/
+out/
+
+# =====================
+# Logs & Temp Files
+# =====================
+*.log
+*.tmp
+*.swp
+*.swo
+
+# =====================
+# Dependency & Cache
+# =====================
+vendor/
+*.modcache
+*.cache
+
+# =====================
+# OS / Editor Files
+# =====================
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.iml
+
+# =====================
+# Miscellaneous
+# =====================
+# Ignore any local test files you may create
+test_*
