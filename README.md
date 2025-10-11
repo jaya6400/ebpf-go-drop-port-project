@@ -70,7 +70,9 @@ Check that the `XDP` program is running:
 ```
 sudo ip -details link show dev eth0
 ```
-go run main.go <iface> <process-name>
+Run the Go program (replace <iface> with your network interface and optional port):
+```
+go run main.go <iface> <process-name> <port>
 ```
 Example:
 ```
