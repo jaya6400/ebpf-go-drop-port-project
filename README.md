@@ -76,7 +76,7 @@ go run main.go <iface> <process-name> <port>
 ```
 Example:
 ```
-go run main.go eth0 myprocess
+go run main.go eth0 jdprocess 4040
 ```
 Output:
 ```
